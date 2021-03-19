@@ -37,7 +37,7 @@ int main(in argc, char **argv){
         // run same code for a video
         // retrieving one key frame at a time
         // while cam is open
-        
+
         cam.retrieve(InImage);
         vector<aruco::Marker> Markers_Cam = MDetector.detect(InImage);
 
